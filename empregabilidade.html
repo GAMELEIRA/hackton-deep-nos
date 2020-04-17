@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/inputs-padrao.css">
+    <link rel="stylesheet" href="./css/empregabilidade.css">
+    <title>Empregabilidade - NÓS</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="itens_navegacao">
+                    <a href="./doacao.html">Doação</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./empregabilidade.html">Empregabilidade</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./cadastrar_vaga.html">Cadastrar Vagas</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./eventos.html">Eventos</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./voluntariado.html">Voluntariado</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./institucional.html">Institucional</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./responsabilidade-social.html">Responsabilidade Ambiental e Social</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./contatos.html">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="espaco_padrao">
+    </div>
+    <main>
+        <div>
+            <h5 class="titulo_principal">Empregabilidade:</h5>
+            <br>
+            <p>Procurando emprego? Se cadastre no sistema e iremos entrar em contato com as vagas disponiveis com o seu perfil.
+            </p>
+            <br>
+            <form>
+                <h6 class="titulo_principal">Informações pessoais:</h6>
+
+                <label for="formulario_nome">Nome:</label>
+                <input type="text" id="formulario_nome" required>
+
+                <label for="formulario_sobrenome">Sobrenome:</label>
+                <input type="text" id="formulario_-sobrenome" required>
+
+                <label for="formulario_cpf">CPF:</label>
+                <input type="text" id="formulario_cpf" required>
+
+                <fieldset>
+                    <legend>Estado Civil:</legend>
+                    <select required>
+                        <option></option>
+                        <option>Solteiro</option>
+                        <option>Casado</option>
+                        <option>Divorciado</option>
+                        <option>Viuvo</option>
+                        <option>Separado judicialmente</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Escolaridade:</legend>
+                    <select required>
+                        <option></option>
+                        <option>Fundamental incompleto</option>
+                        <option>Fundamental cursando</option>
+                        <option>Fundamental completo</option>
+                        <option>Médio incompleto</option>
+                        <option>Médio cursando</option>
+                        <option>Médio completo</option>
+                        <option>Superior incompleto</option>
+                        <option>Superior cursando</option>
+                        <option>Superior concluído</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Empregabilidade:</legend>
+                    <select required>
+                        <option></option>
+                        <option>Desempregado</option>
+                        <option>Empregado</option>
+                    </select>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Pretenção Salarial:</legend>
+                    <select required>
+                        <option></option>
+                        <option>Qualquer salário</option>
+                        <option>0-1000</option>
+                        <option>1001-2000</option>
+                        <option>2001-3000</option>
+                        <option>4000 ou mais</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Área de interesse:</legend>
+                    <select required>
+                        <option></option>
+                        <option>Qualquer área</option>
+                        <option>Administração</option>
+                        <option>Economia e Negócios</option>
+                        <option>Ciências Sociais</option>
+                        <option>Comunicação</option>
+                        <option>Design Arte</option>
+                        <option>Educação</option>
+                        <option>Direito</option>
+                        <option>Engenharia e Arquitetura</option>
+                        <option>Educação</option>
+                        <option>T.I</option>
+                        <option>Agronomia</option>
+                        <option>Saúde</option>
+                        <option>Gastronomia</option>
+                        <option>Turismo</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+
+                    <h6>Endeço:</h6>
+
+                    <label for="formulario_endereco_cep">CEP:</label>
+                    <input type="number" id="formulario_endereco_cep" required>
+
+                    <label for="formulario_endereco_rua">Rua:</label>
+                    <input type="text" id="formulario_endereco_rua" required>
+
+                    <label for="formulario_endereco_bairro">Bairro:</label>
+                    <input type="text" id="formulario_endereco_bairro" required>
+
+                    <label for="formulario_endereco_cidade">Cidade:</label>
+                    <input type="text" id="formulario_endereco_cidade" required>
+
+                    <label for="formulario_endereco_pais">Pais:</label>
+                    <input type="text" id="formulario_endereco_pais" required>
+                </fieldset>
+                <fieldset>
+                    <h6>Contatos:</h6>
+                    <label for="formulario_contatos_email">E-mail</label>
+                    <input type="url" id="formulario_contatos_email" required placeholder="seu_email@dominio.com">
+
+                    <label for="formulario_contatos_linkedin">Linkedin:</label>
+                    <input type="url" id="formulario_contatos_linkedin" placeholder="url_seu_perfil">
+
+                    <label for="formulario_contatos_celular">Tel Cel:</label>
+                    <input type="number" id="formulario_contatos_celular" required>
+
+                    <label for="formulario_contatos_telefone_fixo">Tel Fix:</label>
+                    <input type="number" id="formulario_contatos_telefone_fixo">
+                </fieldset>
+                <input type="submit" value="Cadastrar" id="botao_enviar">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

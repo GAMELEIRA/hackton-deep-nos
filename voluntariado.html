@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/inputs-padrao.css">
+    <link rel="stylesheet" href="./css/voluntariado.css">
+    <title>Empregabilidade - NÓS</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="itens_navegacao">
+                    <a href="./doacao.html">Doação</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./empregabilidade.html">Empregabilidade</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./cadastrar_vaga.html">Cadastrar Vagas</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./eventos.html">Eventos</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./voluntariado.html">Voluntariado</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./institucional.html">Institucional</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./responsabilidade-social.html">Responsabilidade Ambiental e Social</a>
+                </li>
+                <li class="itens_navegacao">
+                    <a href="./contatos.html">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="espaco_padrao">
+    </div>
+    <main>
+        <div>
+            <h5 class="titulo_principal">Voluntariado:</h5>
+            <br>
+            <p>Gostaria de ajudar? Se cadastre no sistema para poder participar.</p>
+            <br>
+            <form>
+                <h6 class="titulo_principal">Informações pessoais:</h6>
+
+                <label for="formulario_nome">Nome:</label>
+                <input type="text" id="formulario_nome" required>
+
+                <label for="formulario_sobrenome">Sobrenome:</label>
+                <input type="text" id="formulario_-sobrenome" required>
+
+                <label for="formulario_cpf">CPF:</label>
+                <input type="text" id="formulario_cpf">
+
+                <fieldset>
+                    <legend>Escolaridade:</legend>
+                    <select required>
+                        <option></option>
+                        <option>Fundamental incompleto</option>
+                        <option>Fundamental cursando</option>
+                        <option>Fundamental completo</option>
+                        <option>Médio incompleto</option>
+                        <option>Médio cursando</option>
+                        <option>Médio completo</option>
+                        <option>Superior incompleto</option>
+                        <option>Superior cursando</option>
+                        <option>Superior concluído</option>
+                    </select>
+                </fieldset>
+                <h6 class="titulo_principal">Voluntariado:</h6>
+                <fieldset>
+                    <legend>Gostaria de prestar qual serviço?</legend>
+                    <select required>
+                        <option></option>
+                        <option>Manutenção do instituto</option>
+                        <option>Coleta de recicláveis</option>
+                        <option>Cozinheiro</option>
+                        <option>Auxiliar de cozinha</option>
+                        <option>Dar aulas de inglês</option>
+                        <option>Dar aulas de espanhol</option>
+                        <option>Dar aulas de programação</option>
+                        <option>Dar aulas de informática básica</option>
+                        <option>Dar aulas de artesanato</option>
+                        <option>Dar aulas de ginastica</option>
+                        <option>Dar aulas de balé</option>
+                        <option>Ser monitor de aulas inglês</option>
+                        <option>Ser monitor de aulas espanhol</option>
+                        <option>Ser monitor de aulas programação</option>
+                        <option>Ser monitor de aulas informática básica</option>
+                        <option>Ser monitor de aulas artesanato</option>
+                        <option>Ser monitor de aulas ginastica</option>
+                        <option>Ser monitor de aulas balé</option>
+                    </select>
+                    <label for="formulario_contatos_data">Horas disponiveis</label>
+                    <input type="time" id="formulario_contatos_data">
+                </fieldset>
+                <fieldset>
+                    <h6>Contatos:</h6>
+                    <label for="formulario_contatos_email">E-mail</label>
+                    <input type="email" id="formulario_contatos_email" required placeholder="seu_email@dominio.com">
+
+                    <label for="formulario_contatos_linkedin">Linkedin:</label>
+                    <input type="url" id="formulario_contatos_linkedin" required>
+
+                    <label for="formulario_contatos_celular">Tel Cel:</label>
+                    <input type="number" id="formulario_contatos_celular" required>
+
+                    <label for="formulario_contatos_telefone_fixo">Tel Fix:</label>
+                    <input type="number" id="formulario_contatos_telefone_fixo" required>
+                </fieldset>
+
+                <label for="formulario_checkbox_voluntariado" id="check">Garante que leu os termos do
+                    voluntariado?</label>
+                <input type="checkbox" id="formulario_checkbox_voluntariado" value="voluntariado" checked required>
+                <input type="submit" value="Cadastrar" id="botao_enviar">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+.titulo_principal {
+    margin-top: 10px;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+h6 {
+    font-size: 30px;
+}
+
+main div {
+    display: inline-block;
+    width: 40%;
+    background-color: white;
+    border-radius: 0 30px 30px 0;
+}
+
+label {
+    font-size: large;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+fieldset {
+    margin-top: 20px;
+}
+
+legend {
+    margin-left: 15%;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    border-color: rgb(0, 176, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 70%;
+    height: 30px;
+    padding: 20px;
+    margin-left: 15%;
+    font-size: medium;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+select {
+    display: block;
+    box-sizing: border-box;
+    border-color: rgb(0, 176, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 70%;
+    height: 30px;
+    padding: 20px;
+    margin-left: 15%;
+    font-size: medium;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#botao_enviar {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    font-size: large;
+    margin: 30px 0 30px 0;
+    padding: 0 30px 30px 0;
+    text-align: center;
+    background-color: rgb(0, 176, 255);
+}
+
+#botao_enviar:hover {
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#formulario_checkbox_voluntariado {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#chek {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
